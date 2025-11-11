@@ -1,0 +1,75 @@
+/* ✅ التدرجات اللونية الرسمية لتكوين المعرفة */
+.bg-takween-gradient {
+  background-image: linear-gradient(135deg, #0e4c6e 0%, #1a936f 100%);
+  color: #fff;
+}
+
+/* ✅ تدرج ناعم للبطاقات أو الهيدر */
+.bg-takween-soft {
+  background-image: linear-gradient(180deg, #f9fbfc 0%, #f1f5f9 100%);
+}
+
+/* ✅ ظلال ناعمة للعناصر */
+.shadow-takween {
+  box-shadow: 0 4px 12px rgba(14, 76, 110, 0.15);
+}
+
+/* ✅ حدود بألوان الهوية */
+.border-takween {
+  border: 1px solid #a1e8af;
+}
+
+/* ✅ زوايا ناعمة متناسقة في كل المكونات */
+.rounded-takween {
+  border-radius: 1rem;
+}
+
+/* ✅ زر رسمي أساسي */
+.btn-takween {
+  background-color: #0e4c6e;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.btn-takween:hover {
+  background-color: #1a936f;
+}
+
+/* ✅ زر فاتح ثانوي */
+.btn-takween-light {
+  background-color: #a1e8af;
+  color: #0e4c6e;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.btn-takween-light:hover {
+  background-color: #1a936f;
+  color: #fff;
+}
+
+/* ✅ نصوص رئيسية وثانوية */
+.text-takween-main {
+  color: #0e4c6e;
+}
+.text-takween-sub {
+  color: #2f4858;
+}
+
+/* ✅ تراكب خلفي خفيف للاستخدام في مودالات */
+.backdrop-takween {
+  background-color: rgba(14, 76, 110, 0.15);
+  backdrop-filter: blur(4px);
+}
+
+/* ✅ كارت رسمي */
+.card-takween {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 1.25rem;
+}

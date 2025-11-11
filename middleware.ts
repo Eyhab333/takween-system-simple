@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
-import { getAuth } from "firebase/auth";
-import { auth } from "@/lib/firebase";
+//import { getAuth } from "firebase/auth";
+//import { auth } from "@/lib/firebase";
 
 export function middleware(request: NextRequest) {
   // لاحقاً سنربطها بـ Auth

@@ -2,8 +2,10 @@
 import { db } from "./firebase";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export async function ensureUserDocument(user: any) {
   if (!user) return;
+
 
   const userRef = doc(db, "users", user.uid);
   const snapshot = await getDoc(userRef);
